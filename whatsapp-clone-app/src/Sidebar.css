@@ -1,7 +1,7 @@
 .sidebar{
     display:flex;
     flex-direction: column;
-    flex:0.4;
+    flex:0.35;
 }
 
 .sidebar__header{
@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
     background-color:#f6f6f6;
+    
     height: 39px;
     padding: 10px;
 }
@@ -40,6 +41,7 @@
     border-radius: 20px;
 }
 
+
 .sidebar__searchContainer > input{
     border: none;
     padding: 10px;
@@ -52,6 +54,7 @@
 
 .sidebar__chats{
     background-color: white;
+    /* background-color: black; */
     flex: 1;
     overflow: scroll;
 }
